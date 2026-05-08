@@ -19,21 +19,23 @@ A sample image (bus.jpg) is downloaded, and object detection is performed. The d
 Output Image (output.jpg)
 This image would show the bus.jpg with detected objects (e.g., persons, bus, stop sign) and their bounding boxes.
 
-image 1/1 /content/bus.jpg: 640x480 4 persons, 1 bus, 1 stop sign, 398.8ms
-Speed: 16.3ms preprocess, 398.8ms inference, 50.3ms postprocess per image at shape (1, 3, 640, 480)
-Inference on an Uploaded Image
-The notebook also allows users to upload their own image for object detection. The uploaded image is processed, and the results are saved and displayed.
+#image 1/1 /content/bus.jpg: 640x480 4 persons, 1 bus, 1 stop sign, 398.8ms
+#Speed: 16.3ms preprocess, 398.8ms inference, 50.3ms postprocess per image at shape (1, 3, 640, 480)
+#Inference on an Uploaded Image
+#The notebook also allows users to upload their own image for object detection. The uploaded image is processed, and the results are #saved and displayed.
 
-Output Image (my_output.jpg)
-This image would show your uploaded image (TEST@.webp in this example) with detected objects (e.g., persons, cars) and their bounding boxes.
+#Output Image (my_output.jpg)
+#This image would show your uploaded image (TEST@.webp in this example) with detected objects (e.g., persons, cars) and their bounding #boxes.
 
-Saving TEST@.webp to TEST@.webp
+#Saving TEST@.webp to TEST@.webp
 
-image 1/1 /content/TEST@.webp: 384x640 7 persons, 8 cars, 154.1ms
-Speed: 2.7ms preprocess, 154.1ms inference, 1.3ms postprocess per image at shape (1, 3, 384, 640)
-Listing Detected Objects and Confidence Scores
-Finally, the detected objects and their confidence scores from the last inference (on the uploaded image) are printed to the console.
-
+#image 1/1 /content/TEST@.webp: 384x640 7 persons, 8 cars, 154.1ms
+#Speed: 2.7ms preprocess, 154.1ms inference, 1.3ms postprocess per image at shape (1, 3, 384, 640)
+#Listing Detected Objects and Confidence Scores
+#Finally, the detected objects and their confidence scores from the last inference (on the uploaded image) are printed to the console.
+```
+##Results
+<img width="321" height="180" alt="image" src="https://github.com/user-attachments/assets/8a308f80-1e9a-4922-b84a-bb0ca3231a99" />
 Detected: car | Confidence: 0.89
 Detected: person | Confidence: 0.89
 Detected: person | Confidence: 0.73
@@ -49,6 +51,3 @@ Detected: car | Confidence: 0.33
 Detected: person | Confidence: 0.32
 Detected: car | Confidence: 0.28
 Detected: car | Confidence: 0.28
-```
-##Results
-<img width="321" height="180" alt="image" src="https://github.com/user-attachments/assets/8a308f80-1e9a-4922-b84a-bb0ca3231a99" />
